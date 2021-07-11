@@ -1,0 +1,56 @@
+name: flutter_dino
+description: Dino Game
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # Flame Engine
+  flame: ^0.29.4
+
+  # Shared Preferences
+  shared_preferences: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/audio/
+    - assets/images/backgrounds/
+    - assets/images/backgrounds/nature/
+    - assets/images/characters/dino/
+    - assets/images/characters/dino/gifs/
+    - assets/images/characters/enemies/bat/
+    - assets/images/characters/enemies/bee/
+    - assets/images/characters/enemies/bird/
+    - assets/images/characters/enemies/bunny/
+    - assets/images/characters/enemies/chicken/
+    - assets/images/characters/enemies/duck/
+    - assets/images/characters/enemies/fat/
+    - assets/images/characters/enemies/ghost/
+    - assets/images/characters/enemies/mushroom/
+    - assets/images/characters/enemies/pig/
+    - assets/images/characters/enemies/radish/
+    - assets/images/characters/enemies/rhino/
+    - assets/images/characters/enemies/rock/
+    - assets/images/characters/enemies/slime/
+    - assets/images/characters/enemies/trunk/
+
+  fonts:
+    - family: GamePlay
+      fonts:
+        - asset: assets/fonts/gameplay.ttf
